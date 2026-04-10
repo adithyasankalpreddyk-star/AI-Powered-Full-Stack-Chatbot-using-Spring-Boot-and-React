@@ -1,4 +1,5 @@
-# spring-boot-ai-chatbot
+# 
+AI-Powered-Full-Stack-Chatbot-using-Spring-Boot-and-React
 Your friendly personal assistant powered by OpenAI
 
 Here’s a detailed README file template for your project. This template covers the main aspects of your project, including an overview, installation steps, usage instructions, and more. You can customize it further according to your project’s specifics.
@@ -63,8 +64,8 @@ Before you begin, ensure you have the following installed on your machine:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/vikasrajputin/spring-ai-chatbot.git
-cd spring-ai-chatbot
+git clone https://github.com/adithyasankalpreddyk-star/AI-Powered-Full-Stack-Chatbot-using-Spring-Boot-and-React
+cd AI-Powered-Full-Stack-Chatbot-using-Spring-Boot-and-React
 ```
 
 ### Project Structure
@@ -173,23 +174,4 @@ The backend provides the following key API endpoints:
 - You can customize the AI responses by modifying the services and controllers in the `src/main/java` directory.
 - Update the Spring AI configuration in the `application.yml` file.
 
-## Deployment
-
-### Docker Deployment on Local
-
-To deploy the application to a local environment, you can use the Docker images built with the provided Dockerfiles.
-
-1. **Build the Docker images**:
-
-    ```bash
-    docker-compose build
     ```
-
-### Manual Deployment (Without Docker)
-
-- **Backend**: Deploy the Spring Boot jar to a server or cloud service (e.g., AWS EC2, Heroku).
-- **Frontend**: Build the React app (`npm run build`) and serve it using a web server (e.g., Nginx, Apache).
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
